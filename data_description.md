@@ -1,82 +1,75 @@
 This file documents the data element definitions and codes seen as the column headers in the FARS_accident_2019 csv. To view the original full document click [here](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813254).
 
 ### STATE
-Identifies the State in which the crash occurred.
-1 Alabama 
-2 Alaska 
-4 Arizona 
-5 Arkansas 
-6 California 
-8 Colorado 36 New York
-9 Connecticut 37 North Carolina
-10 Delaware 38 North Dakota
-11 District of Columbia 39 Ohio
-12 Florida 40 Oklahoma
-13 Georgia 41 Oregon
-15 Hawaii 42 Pennsylvania
-16 Idaho 43 Puerto Rico
-17 Illinois 44 Rhode Island
-18 Indiana 45 South Carolina
-19 Iowa 46 South Dakota
-20 Kansas 47 Tennessee
-21 Kentucky 48 Texas
-22 Louisiana 49 Utah
-23 Maine 50 Vermont
-24 Maryland 52 Virgin Islands (since 2004)
-25 Massachusetts 51 Virginia
-26 Michigan 53 Washington
-27 Minnesota 54 West Virginia
-28 Mississippi 55 Wisconsin
-29 Missouri 56 Wyoming
-30 Montana 
-31 Nebraska
-32 Nevada 
-33 New Hampshire
-34 New Jersey
+- Identifies the State in which the crash occurred.
+- ![state_codes](state_codes.jpg)
 
-STATENAME
+### STATENAME
+- Identifies the name of the state in which the crash occurred.
+- String
 
+### ST_CASE	
+- The unique case number assigned to each crash.
+- [x]xxxxx - [one]/two characters for state code followed by four characters for case number
 
-ST_CASE	VE_TOTAL
+### VE_TOTAL
+- The number of contact motor vehicles that the officer reported on the police crash report as a unit involved in the crash. This includes vehicles in transport and vehicles not in transport (i.e. parked vehicles)
+- 1-999
 
+### VE_FORMS
+- Number of Vehicle Forms Submitted- ALL 
+- Number of Motor Vehicles in Transport (MVIT) 
+- A count of the number of motor vehicles in transport involved in the crash. Legally parked vehicles are not included.
+- 1-999
 
-VE_FORMS
+### PVH_INVL
+- Number of Parked/Working Vehicles
+- A count of the number of parked and working vehicles involved in the crash.
+- 0-999
 
+### PEDS
+- Number of Forms Submitted for Persons Not in Motor Vehicles
+- The number of Person Forms (Not a Motor Vehicle Occupant) that are applicable to this case (i.e., non-occupants).
+- 0-99
 
-PVH_INVL
+### PERSONS
+- Number of Forms Submitted for Persons in Motor Vehicles 
+- A count of the number of Person Level (Motor Vehicle Occupant) Forms that are applicable to this case (i.e., occupants).
+- 0-999
 
+### PERMVIT
+- Number of Persons in Motor Vehicles in Transport (MVIT) 
+- A count of the number of motorists in the crash. A motorist is a driver, passenger or unknown occupant type of a motor vehicle in transport.
+- 0-999
 
-PEDS
+### PERNOTMVIT
+- Number of Persons Not in Motor Vehicles in Transport (MVIT) 
+- A count of the number of non-motorists in the crash. A non-motorist is defined as a pedestrian, a cyclist, an occupant of a motor vehicle not in transport, a person riding a horse, an occupant of an animal drawn conveyance, person associated with non-motorist conveyance (e.g., baby carriage, skate board, wheelchair), or an other non-motorist (e.g., person outside a trafficway, person in a house). 
+- 0-98
 
+### COUNTY
+- The location of the unstabilized event with regard to the County. The codes are from the General Services Administration’s (GSA) publication of worldwide Geographic Location Codes (GLC).
+- ![county_description_codes](county_description_codes.jpg)
 
-PERSONS
+### COUNTYNAME
+- xxx(xx) - The name of the county (code from the COUNTY field)
 
+### CITY
+- The location of the unstabilized event with regard to the City. The codes are from the General Services Administration’s (GSA) publication of worldwide Geographic Location Codes (GLC). 
+- ![city_description_codes](city_description_codes.jpg)
 
-PERMVIT
+### CITYNAME
+- Name of the city
 
-
-PERNOTMVIT
-
-
-COUNTY
-
-
-COUNTYNAME
-
-
-CITY
-
-
-CITYNAME
-
-
-DAY
+### DAY
 
 
 DAYNAME
 
 
-MONTH
+### MONTH
+- The month in which the crash occurred.
+- ![month_description_codes](month_description_codes.jpg)
 
 
 MONTHNAME
