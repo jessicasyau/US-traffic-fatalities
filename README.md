@@ -1,5 +1,5 @@
 # US-traffic-fatalities
-This project analyzes the 2019 traffic data obtained from the National Highway Traffic Safety Administration (NHTSA), specifically from the Fatality Analysis Reporting System (FARS). [Here](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2019/National/)'s the original source of this data and many other files from the 20199 dataset.
+This project analyzes the 2019 traffic data obtained from the National Highway Traffic Safety Administration (NHTSA), specifically from the Fatality Analysis Reporting System (FARS). [Here](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2019/National/)'s the original source of this data and many other files from the 2019 dataset.
 - View the [data](https://github.com/jessicasyau/US-traffic-fatalities.md/blob/bb39e1b5d4d61d6b09844eff2d0d3a3954cf9504/accident_2019.CSV)
 - View the [data description](https://github.com/jessicasyau/US-traffic-fatalities.md/blob/bb39e1b5d4d61d6b09844eff2d0d3a3954cf9504/description_fields/0.%20Data_descriptions.md)
 
