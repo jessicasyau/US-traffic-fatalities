@@ -8,6 +8,35 @@ Check out the data element descriptions [here](https://github.com/jessicasyau/US
 ![Data visualization created in Tableau](tableau.jpg)
 
 ## Analysis of Fatal Traffic Accident Data From 2000 to 2020
+The code for this analysis is documented in this [Jupyter notebook](https://github.com/jessicasyau/US-traffic-fatalities/blob/9dcc3e60dd595c1cdaf236ecdb74c9696da9f0f9/us-fatal-traffic-accidents.ipynb).
+
+We started by exploring if the following factors correlated with the number of fatal traffic accidents.
+
+**Day of the Week**
+![Fatal traffic accident distribution by the day of the week](dayweek_trend.jpg)
+
+**Lighting Condition**
+![Fatal traffic accident and lighting condition](lighting_trend.jpg)
+
+**Weather**
+![Fatal traffic accident vs Weather](weather_trend.jpg)
+
+**Time - Weekdays**
+![Fatal traffic accident distribution by weekday hour](weekday_hour_trend.jpg)
+
+**Time - Weekends**
+![Fatal traffic accident distribution by weekend hour](weekend_hour_trend.jpg)
+
+**School Bus**
+![Fatal traffic accident and School Bus](sch_trend.jpg)
+
+**State**
+![Fatal traffic accident state trend](state_trend.jpg)
+
+**First Harmful Event**
+![Fatal traffic accident and first damage/injury producing event](harm_trend.jpg)
+
+
 - which states have more accidents per capita?
 - what's the relationship between drinking and traffic accidents? which states have the most drunk-driver-caused accidents as a percent of all accidents?
 - what's the relationship between weather condition and accidents?
