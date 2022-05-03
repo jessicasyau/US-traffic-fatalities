@@ -70,7 +70,7 @@ Although there may appear to be a pattern here, further investigation is require
 ## Accident Prediction
 This [Jupyter notebook](https://github.com/jessicasyau/US-traffic-fatalities/blob/1e1e22f8878331fa0153b7f131cbfc181dbf06c3/us-traff-predict.ipynb) doocuments a model that predicts the total number of US fatal traffic accidents by day. This is a basic model that only takes into account the seasonality of traffic accidents by day of the year and day of the week, using 1 Fourier feature pair.
 
-![traffic prediction](/asset/traffic_pred.jpg)
+![traffic prediction](/assets/traffic_pred.jpg)
 
 We can greatly improve this model by considering more input features based on the trends we observed above, such as day of the week, time of the day, state, lighting condition (perhaps we can combine this with time of the day), and weather condition.
 
