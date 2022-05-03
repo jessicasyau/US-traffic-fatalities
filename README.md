@@ -4,8 +4,8 @@ This project analyzes the US fatal traffic accident data obtained from the Natio
 Check out the data element descriptions [here](https://github.com/jessicasyau/US-traffic-fatalities/blob/db57961853729978feb385b5c7aed729ac4afa44/description_fields/0.%20Data_descriptions.md)
 
 ## Exploratory Analysis of a Specific Year's Data
-[Here](https://public.tableau.com/views/USFatalTrafficAccidents/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) is a data visualization of the 2019 fatal traffic data with a few quick insights.
-![Data visualization created in Tableau](tableau.jpg)
+Here is a data visualization of the 2019 fatal traffic data with a few quick insights.
+<a href="https://public.tableau.com/views/USFatalTrafficAccidents/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">![](tableau.jpg)</a>
 
 ## Analysis of Fatal Traffic Accident Data From 2000 to 2020
 The code for this analysis is documented in this [Jupyter notebook](https://github.com/jessicasyau/US-traffic-fatalities/blob/9dcc3e60dd595c1cdaf236ecdb74c9696da9f0f9/us-fatal-traffic-accidents.ipynb).
