@@ -13,28 +13,28 @@ The code for this analysis is documented in this [Jupyter notebook](https://gith
 We started by exploring if the following factors correlated with the number of fatal traffic accidents.
 
 **Day of the Week**
-![Fatal traffic accident distribution by the day of the week](dayweek_trend.jpg)
+![Fatal traffic accident distribution by the day of the week](/assets/dayweek_trend.jpg)
 
 **Lighting Condition**
-![Fatal traffic accident and lighting condition](lighting_trend.jpg)
+![Fatal traffic accident and lighting condition](/assets/lighting_trend.jpg)
 
 **Weather**
-![Fatal traffic accident vs Weather](weather_trend.jpg)
+![Fatal traffic accident vs Weather](/assets/weather_trend.jpg)
 
 **Time - Weekdays**
-![Fatal traffic accident distribution by weekday hour](weekday_hour_trend.jpg)
+![Fatal traffic accident distribution by weekday hour](/assets/weekday_hour_trend.jpg)
 
 **Time - Weekends**
-![Fatal traffic accident distribution by weekend hour](weekend_hour_trend.jpg)
+![Fatal traffic accident distribution by weekend hour](/assets/weekend_hour_trend.jpg)
 
 **School Bus**
-![Fatal traffic accident and School Bus](sch_trend.jpg)
+![Fatal traffic accident and School Bus](/assets/sch_trend.jpg)
 
 **State**
-![Fatal traffic accident state trend](state_trend.jpg)
+![Fatal traffic accident state trend](/assets/state_trend.jpg)
 
 **First Harmful Event**
-![Fatal traffic accident and first damage/injury producing event](harm_trend.jpg)
+![Fatal traffic accident and first damage/injury producing event](/assets/harm_trend.jpg)
 
 
 - which states have more accidents per capita?
